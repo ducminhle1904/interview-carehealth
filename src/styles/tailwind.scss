@@ -1,0 +1,28 @@
+/* purgecss start ignore */
+@tailwind base;
+
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+/* purgecss start ignore */
+html {
+  @apply antialiased;
+}
+
+.ant-input-group-wrapper {
+  width: 50% !important;
+}
+
+.ant-menu-horizontal > .ant-menu-item, .ant-menu-horizontal > .ant-menu-submenu {
+  display: flex !important;
+  align-items: center;
+}
+
+.ant-table-row {
+  cursor: pointer;
+}
+
+.ant-descriptions-item-content {
+  flex-direction: column;
+}
